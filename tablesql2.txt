@@ -1,0 +1,11 @@
+create table empl (
+id int(3) auto_increment primary key, 
+name varchar (45), 
+email varchar(45), 
+username varchar(45), 
+password varchar(45), 
+phone varchar(20), 
+photo blob, 
+file longtext, 
+comment  varchar(200),
+admin varchar(40));
